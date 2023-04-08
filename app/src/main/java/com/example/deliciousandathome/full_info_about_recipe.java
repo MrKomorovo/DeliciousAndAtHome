@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.app.ActivityOptions;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -21,7 +20,6 @@ public class full_info_about_recipe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_full_info_about_recipe);
-        setContentView(R.layout.activity_main_menu);
 
         ImageView aboba = findViewById(R.id.aboba);
         TextView tv_name = findViewById(R.id.tv_name);
@@ -39,7 +37,6 @@ public class full_info_about_recipe extends AppCompatActivity {
         picName.add("porkStew");
 
         tv_name.setText(bundle.getString("Category"));
-
         for(int i = 0; i < picID.size(); i++){
             if(picName.get(i).equals(bundle.getString("Category"))){
                 aboba.setImageResource(picID.get(i));

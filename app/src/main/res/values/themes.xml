@@ -12,8 +12,5 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/gray</item>
         <!-- Customize your theme here. -->
-        <item name="android:windowActivityTransitions">true</item>
-        <item name="android:windowSharedElementEnterTransition">@transition/anim_transition</item>
-        <item name="android:windowSharedElementExitTransition">@transition/anim_transition</item>
     </style>
 </resources>
