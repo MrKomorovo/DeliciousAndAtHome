@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "694939265214",
+    "firebase_url": "https://deliciousandathome-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "deliciousandathome",
+    "storage_bucket": "deliciousandathome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694939265214:android:98ad2028c19a79b9ea16ef",
+        "android_client_info": {
+          "package_name": "com.example.deliciousandathome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694939265214-1rr39nageha92ioj23kj4sja9uuuimle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKVIgmVCgUEWn7R64Quj7kYikyS4KDELU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694939265214-1rr39nageha92ioj23kj4sja9uuuimle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
