@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DeliciousAndAtHome</string>
+    <string name="animIV">animIV</string>
+    <string name="animTV">animTV</string>
 </resources>
